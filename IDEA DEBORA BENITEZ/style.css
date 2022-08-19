@@ -8,7 +8,8 @@ body{
     font-family: 'Arima', cursive;
     font-weight: bold;
     font-size: large;
-    background-image: url("./Imagenes/back3.jpg");
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 42%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+    /* background-image: url("./Imagenes/back3.jpg"); */
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +21,7 @@ body{
 #grilla{
     height: 100vh;
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, auto);
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "header header header header"
                         "main main section-uno section-uno"
@@ -86,7 +87,17 @@ header{
 
 .input-busqueda{
     display: inline-block;
-    margin-left: 400px;
+    margin-left: 400px;}
+
+input{
+    width: 100px;
+    height: 20px;
+    transition: height 2s, width 1s;
+}
+input:hover{
+    width: 200px;
+    height: 30px;
+    
 }
 
         /* styles main */
@@ -103,23 +114,54 @@ header{
     padding-inline: 50px;
     background-color: rgba(245, 245, 220, 0.585);
     border-radius: 30px;
+}
 
+section iframe{
+    width: auto;
+    height: auto;
+    transition: height 5s, width 3s;
+}
+
+section iframe:hover{
+    width: 600px;
+    height: 500px;
 }
 
         /* styles section-uno */
+
+
+.grilla-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .iframe{
     margin-top: 300px;
     width: 500px; 
     height: 400px;
-   padding-inline: 100px;
+   display: flex;
+   
 }
 
-.tabla{
+.lista{
     margin-top: 200px;
     background-color: rgba(245, 245, 220, 0.585);
     border-radius: 30px; 
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    
 }
+
+.lista ul li{
+    text-decoration: none;
+    list-style-type: none; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
 
         /* styles section-dos */
 
@@ -207,7 +249,7 @@ footer ul li a{
 #grilla-qs{
     height: 100vh;
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
     grid-template-columns: 1fr;
     grid-template-areas: "header-qs"
                         "main-qs"
