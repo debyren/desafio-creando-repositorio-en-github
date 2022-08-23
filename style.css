@@ -104,23 +104,25 @@ footer ul li a{
 .parrafos-qs{
     padding: 30px;
 }
-
+/* 
 #carousel-qs {
-    /* height: 65vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
     width: 802px;
     height: 525px;
     margin-left: 280px;
-}  
 
+}   */
+
+
+@media screen and (max-width:768px){
+    .img-carousel{margin-top: 30px;
+        margin-left: 150px;
+        width: 450px;
+        height: 350px;
+    }
+}
 @media screen and (max-width:480px){
     .img-carousel{margin-top: 30px;
-        margin-left: 20px;
+        margin-left: 20px; 
         width: 450px;
         height: 350px;
     }
