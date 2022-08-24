@@ -14,9 +14,7 @@ body{
     width: 802px;
     height: 525px;
     margin-left: 280px;
-    /* width: auto;
-    height: 700px;
-    max-height: 700px; */
+    
   
 }
 
@@ -29,47 +27,7 @@ body{
 .lista li{
     list-style-type: none;
 }
-footer{
-    background-color: beige;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-evenly;
-}
-footer ul li{
-    list-style-type: none;
-}
 
-footer ul li a{
-    
-    text-decoration: none;
-    color: #000000;
-    font-size: medium;
-    white-space: 400px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.footer-redes{
-    text-align: center;
-    font-size: medium;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: ;
-    width: 200px;
-}
-
-.logo-redes{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-}
-.logos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
 
 .bi-instagram{
     color: #cc2366;
@@ -101,29 +59,97 @@ footer ul li a{
 
 }
 
+footer{
+    background-color: beige;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    
+    text-decoration: none;
+    color: #000000;
+    font-size: medium;
+    white-space: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-redes{
+    text-align: center;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: ;
+    width: 200px;
+}
+
+.logo-redes{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* styles quienes somos */
+
 .parrafos-qs{
     padding: 30px;
 }
-/* 
-#carousel-qs {
-    width: 802px;
-    height: 525px;
-    margin-left: 280px;
 
-}   */
+
+
+/* Styles medios de pago */
+
+.title-mp{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.imagen-mp{
+margin-top: 50px;
+border-radius: 10px;
+
+}
+
 
 
 @media screen and (max-width:768px){
-    .img-carousel{margin-top: 30px;
-        margin-left: 150px;
-        width: 450px;
-        height: 350px;
+.bg-beige{
+    background-color: rgb(255, 255, 198);
+    }
+.img-carousel{margin-top: 30px;
+    margin-left: 150px;
+    width: 450px;
+    height: 350px;
+    }
+.footer{
+    background-color: rgb(255, 255, 198);
     }
 }
+
+
 @media screen and (max-width:480px){
-    .img-carousel{margin-top: 30px;
-        margin-left: 20px; 
-        width: 450px;
-        height: 350px;
+.bg-beige{
+    background-color: rgb(255, 255, 198);
     }
+.img-carousel{margin-top: 30px;
+    margin-left: 20px; 
+    width: 450px;
+    height: 350px;
+}
+.logo-redes{
+    font-size: 15px;
+}
+.footer{
+    background-color: rgb(255, 255, 198);
+}
 }
