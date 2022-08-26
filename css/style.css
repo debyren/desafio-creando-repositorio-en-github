@@ -147,6 +147,12 @@ border-radius: 10px;
     width: 430px;
     height: 350px;
 }
+
+#marcas > *{
+    width: 50px;
+    height: 50px;
+
+}
 .logo-redes{
     font-size: 15px;
 }
