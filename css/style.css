@@ -8,14 +8,12 @@ body{
 }
 
 .bg-beige{
-    background-color:beige ;
+    background-color: #D0E8E1 ;
 }
 .img-carousel{
     width: 802px;
     height: 525px;
-    margin-left: 280px;
-    
-  
+    margin-left: 280px; 
 }
 
 .card img{
@@ -60,7 +58,7 @@ body{
 }
 
 footer{
-    background-color: beige;
+    background-color: #B1D9CD;
     margin-top: 40px;
     display: flex;
     justify-content: space-evenly;
@@ -122,34 +120,37 @@ border-radius: 10px;
 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:768px)and (min-width:500px){
 .bg-beige{
-    background-color: rgb(255, 255, 198);
+    background-color:  #D0E8E1;
     }
-.img-carousel{margin-top: 30px;
+.img-carousel{
+    margin-top: 30px;
     margin-left: 150px;
     width: 450px;
     height: 350px;
     }
+
 .footer{
-    background-color: rgb(255, 255, 198);
+    background-color:#B1D9CD ;
     }
 }
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:500px){
 .bg-beige{
-    background-color: rgb(255, 255, 198);
+    background-color:  #D0E8E1;
     }
-.img-carousel{margin-top: 30px;
-    margin-left: 20px; 
-    width: 450px;
+.img-carousel{
+    margin-top: 30px;
+    margin-left: 25px; 
+    width: 430px;
     height: 350px;
 }
 .logo-redes{
     font-size: 15px;
 }
 .footer{
-    background-color: rgb(255, 255, 198);
+    background-color:#B1D9CD; 
 }
 }
