@@ -139,11 +139,11 @@ border-radius: 10px;
 
 @media screen and (max-width:500px){
 .bg-beige{
-    background-color:  #D0E8E1;
+    background-color:  #9eb5ae;
     }
 .img-carousel{
     margin-top: 30px;
-    margin-left: 25px; 
+    /* margin-left: 25px;  */
     width: 350px;
     height: 350px;
 }
@@ -157,6 +157,6 @@ border-radius: 10px;
     font-size: 15px;
 }
 .footer{
-    background-color:#B1D9CD; 
+    background-color:#96b9ae; 
 }
 }
